@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://artyom1910.github.io/product/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gulp build && gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Artiom Kupits",
   "license": "ISC",
+  "homepage": "https://artyom1910.github.io/product/",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
